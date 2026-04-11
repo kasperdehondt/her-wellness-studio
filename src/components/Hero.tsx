@@ -1,0 +1,36 @@
+const Hero = () => {
+  return (
+    <section className="min-h-screen flex flex-col md:flex-row">
+      {/* Left — Text */}
+      <div className="flex-1 flex flex-col justify-center px-8 md:px-16 lg:px-24 py-20 md:py-0">
+        <p className="font-body text-xs tracking-[0.3em] uppercase text-muted-foreground mb-4">
+          Movement · Healing · Art
+        </p>
+        <h1 className="font-heading text-6xl md:text-7xl lg:text-8xl font-light text-foreground leading-[0.95] mb-6">
+          Stephanie
+        </h1>
+        <p className="font-body text-muted-foreground max-w-md leading-relaxed mb-8">
+          A holistic practice woven from yoga, pilates, therapeutic bodywork, and creative expression — guiding you toward balance, strength, and inner stillness.
+        </p>
+        <a
+          href="#contact"
+          className="inline-block w-fit font-body text-sm tracking-widest uppercase border border-primary text-primary px-8 py-3 hover:bg-primary hover:text-primary-foreground transition-all duration-500"
+        >
+          Get in Touch
+        </a>
+      </div>
+
+      {/* Right — Image placeholder */}
+      <div className="flex-1 bg-muted relative overflow-hidden min-h-[50vh] md:min-h-0">
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-secondary/15 to-accent/20" />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="w-48 h-48 rounded-full border-2 border-primary/30 flex items-center justify-center">
+            <span className="font-heading text-4xl text-primary/40">S</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
