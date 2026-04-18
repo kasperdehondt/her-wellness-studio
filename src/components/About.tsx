@@ -23,10 +23,11 @@ const About = () => {
               Dat kan in gesprekstherapie en screening, maar ook op andere creatieve manieren of via sportlessen. Hoe dan ook, steeds op jouw maat en met je behoeftes voorop.
             </p>
             <p>
-              Her work is grounded in the belief that the body holds wisdom — that movement, breath, and creative expression are pathways to healing. Each session is thoughtfully tailored, meeting you exactly where you are.
+              Als bachelor toegepaste psychologie en sportinstructrice geef ik je de ruimte om in contact te komen met jezelf en wat je energie vreet, om dat te kunnen transformeren naar iets moois.
             </p>
             <p>
-              Whether on the mat, in the studio, or through therapeutic touch, Stephanie creates a space where transformation feels natural and unhurried.
+              Ik bied ook creatieve technieken aan voor zij die liever iets om handen hebben tijdens de therapieën.
+              Bouw aan je zelfvertrouwen, versterk je talenten en werk aan je zelfontwikkeling. Ben je er klaar voor?
             </p>
           </div>
         </div>
