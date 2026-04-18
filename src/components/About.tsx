@@ -15,7 +15,7 @@ const About = () => {
         <div>
           <p className="font-body text-xs tracking-[0.3em] uppercase text-primary mb-3">About</p>
           <h2 className="font-heading text-4xl md:text-5xl font-light text-foreground mb-6 leading-tight">
-            Rooted in Practice,<br />Guided by Intuition
+            Holistische coaching
           </h2>
           <div className="space-y-4 font-body text-muted-foreground leading-relaxed">
             <p>
