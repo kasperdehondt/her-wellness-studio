@@ -4,7 +4,7 @@ const Hero = () => {
       {/* Left — Text */}
       <div className="flex-1 flex flex-col justify-center px-8 md:px-16 lg:px-24 py-20 md:py-0">
         <p className="font-body text-xs tracking-[0.3em] uppercase text-muted-foreground mb-4">
-          Movement · Healing · Art
+          Evenwicht - levenslust - kracht
         </p>
         <h1 className="font-heading text-6xl md:text-7xl lg:text-8xl font-light text-foreground leading-[0.95] mb-6">
           Stephanie
