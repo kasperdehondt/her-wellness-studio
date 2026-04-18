@@ -29,7 +29,7 @@ const Services = () => {
   return (
     <section id="services" className="py-24 md:py-32 bg-card">
       <div ref={ref} className="opacity-0 max-w-7xl mx-auto px-8 md:px-16 lg:px-24">
-        <p className="font-body text-xs tracking-[0.3em] uppercase text-primary mb-3 text-center">Services</p>
+        <p className="font-body text-xs tracking-[0.3em] uppercase text-primary mb-3 text-center">Diensten</p>
         <h2 className="font-heading text-4xl md:text-5xl font-light text-foreground mb-16 text-center">
           What I Offer
         </h2>
