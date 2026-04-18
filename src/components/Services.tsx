@@ -31,7 +31,7 @@ const Services = () => {
       <div ref={ref} className="opacity-0 max-w-7xl mx-auto px-8 md:px-16 lg:px-24">
         <p className="font-body text-xs tracking-[0.3em] uppercase text-primary mb-3 text-center">Diensten</p>
         <h2 className="font-heading text-4xl md:text-5xl font-light text-foreground mb-16 text-center">
-          What I Offer
+          Wat ik aanbied
         </h2>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
