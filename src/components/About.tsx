@@ -19,7 +19,8 @@ const About = () => {
           </h2>
           <div className="space-y-4 font-body text-muted-foreground leading-relaxed">
             <p>
-              With over a decade of dedicated study and practice, Stephanie brings together the disciplines of yoga, pilates, somatic therapy, and visual art into a unified approach to wellbeing.
+              Fysieke, mentale, emotionele, sociale en zingevingsvragen komen aan bod en dat voor mensen die meer vitaliteit en energie in hun leven willen om te doen wat ze graag doen.
+              Dat kan in gesprekstherapie en screening, maar ook op andere creatieve manieren of via sportlessen. Hoe dan ook, steeds op jouw maat en met je behoeftes voorop.
             </p>
             <p>
               Her work is grounded in the belief that the body holds wisdom — that movement, breath, and creative expression are pathways to healing. Each session is thoughtfully tailored, meeting you exactly where you are.
