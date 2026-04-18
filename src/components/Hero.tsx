@@ -10,7 +10,9 @@ const Hero = () => {
           Stephanie
         </h1>
         <p className="font-body text-muted-foreground max-w-md leading-relaxed mb-8">
-          A holistic practice woven from yoga, pilates, therapeutic bodywork, and creative expression — guiding you toward balance, strength, and inner stillness.
+          Voel je je futloos of loop je ergens vast in je leven? Ben je klaar om je leven onder handen te nemen?
+          <br /><br />
+          Mijn naam is Stephanie en als holistisch gezondheidscoach gaan we in een tiental krachtige sessies aan alle aspecten van je gezondheid werken.
         </p>
         <a
           href="#contact"
