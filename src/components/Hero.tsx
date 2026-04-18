@@ -12,7 +12,7 @@ const Hero = () => {
         <p className="font-body text-muted-foreground max-w-md leading-relaxed mb-8">
           Voel je je futloos of loop je ergens vast in je leven? Ben je klaar om je leven onder handen te nemen?
           <br /><br />
-          Mijn naam is Stephanie en als holistisch gezondheidscoach gaan we in een tiental krachtige sessies aan alle aspecten van je gezondheid werken.
+          Mijn naam is Stephanie en als holistisch gezondheidscoach werk ik in een tiental krachtige sessies samen met je aan alle aspecten van je gezondheid.
         </p>
         <a
           href="#contact"
