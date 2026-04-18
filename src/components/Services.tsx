@@ -2,7 +2,7 @@ import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
 
 const services = [
   {
-    title: "Yoga",
+    title: "Gesprekstherapie",
     description: "Flowing vinyasa and restorative practices that cultivate strength, flexibility, and deep presence.",
     icon: "◯",
   },
