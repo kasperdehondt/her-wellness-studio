@@ -13,7 +13,7 @@ const About = () => {
 
         {/* Text */}
         <div>
-          <p className="font-body text-xs tracking-[0.3em] uppercase text-primary mb-3">About</p>
+          <p className="font-body text-xs tracking-[0.3em] uppercase text-primary mb-3">Over</p>
           <h2 className="font-heading text-4xl md:text-5xl font-light text-foreground mb-6 leading-tight">
             Holistische coaching
           </h2>
