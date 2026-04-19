@@ -4,7 +4,7 @@ import pilatesYoga from "@/assets/gallery-pilates-yoga.jpeg";
 
 const galleryItems = [
   { aspect: "aspect-[3/4]", label: "Creatieve workshops", image: creatieveWorkshops },
-  { aspect: "aspect-square", label: "Studio Work", image: pilatesYoga },
+  { aspect: "aspect-square", label: "Pilates", image: pilatesYoga },
   { aspect: "aspect-[4/3]", label: "Art Process" },
   { aspect: "aspect-[3/4]", label: "Pilates" },
   { aspect: "aspect-[4/3]", label: "Therapeutic Touch" },
