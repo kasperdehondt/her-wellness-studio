@@ -24,7 +24,7 @@ const Testimonials = () => {
   return (
     <section className="py-24 md:py-32 bg-card">
       <div ref={ref} className="opacity-0 max-w-5xl mx-auto px-8 md:px-16">
-        <p className="font-body text-xs tracking-[0.3em] uppercase text-primary mb-3 text-center">Testimonials</p>
+        <p className="font-body text-xs tracking-[0.3em] uppercase text-primary mb-3 text-center">Concreet</p>
         <h2 className="font-heading text-4xl md:text-5xl font-light text-foreground mb-16 text-center">
           Kind Words
         </h2>
