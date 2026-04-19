@@ -3,11 +3,11 @@ import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
 const services = [
   {
     title: "Gesprekstherapie",
-    description: "Flowing vinyasa and restorative practices that cultivate strength, flexibility, and deep presence.",
+    description: "Door samen de door jouw aangebrachte thema's aan te kaarten gaan we op zoek naar nieuwe perspectieven en oplossingen",
     icon: "◯",
   },
   {
-    title: "Pilates",
+    title: "Creatieve therapie",
     description: "Precision-based movement to build core stability, improve posture, and restore functional alignment.",
     icon: "△",
   },
