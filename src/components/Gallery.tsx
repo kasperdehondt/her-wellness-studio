@@ -1,7 +1,8 @@
 import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
+import creatieveWorkshops from "@/assets/gallery-creatieve-workshops.jpeg";
 
 const galleryItems = [
-  { aspect: "aspect-[3/4]", label: "Yoga Flow" },
+  { aspect: "aspect-[3/4]", label: "Creatieve workshops", image: creatieveWorkshops },
   { aspect: "aspect-square", label: "Studio Work" },
   { aspect: "aspect-[4/3]", label: "Art Process" },
   { aspect: "aspect-[3/4]", label: "Pilates" },
@@ -26,6 +27,14 @@ const Gallery = () => {
               key={i}
               className={`${item.aspect} bg-muted rounded-sm overflow-hidden relative group break-inside-avoid`}
             >
+              {item.image && (
+                <img
+                  src={item.image}
+                  alt={item.label}
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                />
+              )}
               <div className="absolute inset-0 bg-gradient-to-t from-foreground/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-500">
                 <span className="font-body text-sm text-primary-foreground tracking-wider uppercase">
