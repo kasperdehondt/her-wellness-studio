@@ -15,9 +15,9 @@ const Gallery = () => {
   return (
     <section id="gallery" className="py-24 md:py-32 max-w-7xl mx-auto px-8 md:px-16 lg:px-24">
       <div ref={ref} className="opacity-0">
-        <p className="font-body text-xs tracking-[0.3em] uppercase text-primary mb-3 text-center">Gallery</p>
+        <p className="font-body text-xs tracking-[0.3em] uppercase text-primary mb-3 text-center">Gallerij</p>
         <h2 className="font-heading text-4xl md:text-5xl font-light text-foreground mb-16 text-center">
-          A Glimpse of the Work
+          Een blik op het werk
         </h2>
 
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
