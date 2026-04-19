@@ -18,7 +18,7 @@ const Hero = () => {
           href="#contact"
           className="inline-block w-fit font-body text-sm tracking-widest uppercase border border-primary text-primary px-8 py-3 hover:bg-primary hover:text-primary-foreground transition-all duration-500"
         >
-          Get in Touch
+          Contacteer me
         </a>
       </div>
 
