@@ -4,6 +4,7 @@ import pilatesYoga from "@/assets/gallery-pilates-yoga.jpeg";
 import emoties from "@/assets/gallery-emoties.jpeg";
 import yoga from "@/assets/gallery-yoga.jpg";
 import gesprekstherapie from "@/assets/gallery-gesprekstherapie.jpg";
+import groepstherapie from "@/assets/gallery-groepstherapie.jpg";
 
 const galleryItems = [
   { aspect: "aspect-[3/4]", label: "Creatieve workshops", image: creatieveWorkshops },
@@ -11,7 +12,7 @@ const galleryItems = [
   { aspect: "aspect-[4/3]", label: "Kunstproces", image: emoties },
   { aspect: "aspect-[3/4]", label: "Yoga", image: yoga },
   { aspect: "aspect-[4/3]", label: "Gesprekstherapie", image: gesprekstherapie },
-  { aspect: "aspect-square", label: "Exhibition" },
+  { aspect: "aspect-square", label: "Groepstherapie", image: groepstherapie },
 ];
 
 const Gallery = () => {
