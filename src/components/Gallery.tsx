@@ -6,7 +6,7 @@ import emoties from "@/assets/gallery-emoties.jpeg";
 const galleryItems = [
   { aspect: "aspect-[3/4]", label: "Creatieve workshops", image: creatieveWorkshops },
   { aspect: "aspect-square", label: "Pilates", image: pilatesYoga },
-  { aspect: "aspect-[4/3]", label: "Art Process", image: emoties },
+  { aspect: "aspect-[4/3]", label: "Kunstproces", image: emoties },
   { aspect: "aspect-[3/4]", label: "Pilates" },
   { aspect: "aspect-[4/3]", label: "Therapeutic Touch" },
   { aspect: "aspect-square", label: "Exhibition" },
