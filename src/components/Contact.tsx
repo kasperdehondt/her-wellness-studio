@@ -52,7 +52,7 @@ const Contact = () => {
         {/* Form */}
         <form onSubmit={handleSubmit} className="space-y-5">
           <div>
-            <label className="font-body text-xs tracking-wider uppercase text-muted-foreground mb-1.5 block">Name</label>
+            <label className="font-body text-xs tracking-wider uppercase text-muted-foreground mb-1.5 block">Naam</label>
             <Input
               value={form.name}
               onChange={(e) => setForm({ ...form, name: e.target.value })}
@@ -71,7 +71,7 @@ const Contact = () => {
             />
           </div>
           <div>
-            <label className="font-body text-xs tracking-wider uppercase text-muted-foreground mb-1.5 block">Message</label>
+            <label className="font-body text-xs tracking-wider uppercase text-muted-foreground mb-1.5 block">Bericht</label>
             <Textarea
               value={form.message}
               onChange={(e) => setForm({ ...form, message: e.target.value })}
@@ -84,7 +84,7 @@ const Contact = () => {
             type="submit"
             className="w-full font-body text-sm tracking-widest uppercase bg-primary text-primary-foreground hover:bg-primary/90 rounded-sm py-6"
           >
-            Send Message
+            verzend
           </Button>
         </form>
       </div>
