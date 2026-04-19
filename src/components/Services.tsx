@@ -3,12 +3,12 @@ import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
 const services = [
   {
     title: "Gesprekstherapie",
-    description: "Door samen de door jouw aangebrachte thema's aan te kaarten gaan we op zoek naar nieuwe perspectieven en oplossingen",
+    description: "Door samen de door jouw aangebrachte thema's aan te kaarten gaan we op zoek naar nieuwe perspectieven en oplossingen. We gaan aan de slag met de grote levensdomeinen.",
     icon: "◯",
   },
   {
     title: "Creatieve therapie",
-    description: "Precision-based movement to build core stability, improve posture, and restore functional alignment.",
+    description: "Niet iedereen komt even makkelijk tot gesprek. Soms zoek je een andere manier om je uit te drukken. Anderen hebben gewoon graag wat om handen tijdens een gesprek. Met mijn achtergrond in beeldende kunsten loods ik je graag door het consult.",
     icon: "△",
   },
   {
