@@ -27,24 +27,24 @@ const Contact = () => {
         <div>
           <p className="font-body text-xs tracking-[0.3em] uppercase text-primary mb-3">Contact</p>
           <h2 className="font-heading text-4xl md:text-5xl font-light text-foreground mb-6 leading-tight">
-            Let's Connect
+            Neem contact op
           </h2>
           <p className="font-body text-muted-foreground leading-relaxed mb-8">
-            Whether you're looking to begin a practice, explore therapy, or join an art workshop — I'd love to hear from you.
+            Of je nu therapie wilt ontdekken, wilt deelnemen aan een kunstworkshop, graag meer wil bewegen of een andere vraag hebt over je welzijn - ik hoor het graag van je.
           </p>
 
           <div className="space-y-4 font-body text-sm text-muted-foreground">
             <div>
-              <p className="font-semibold text-foreground mb-1">Location</p>
-              <p>Available for in-person and online sessions</p>
+              <p className="font-semibold text-foreground mb-1">Locatie</p>
+              <p>Beschikbaar voor zowel fysieke als online sessies. Ik werk in de omgeving Ieper en omstreken.</p>
             </div>
             <div>
               <p className="font-semibold text-foreground mb-1">Email</p>
               <p>stephaniehallard@gmail.com</p>
             </div>
             <div>
-              <p className="font-semibold text-foreground mb-1">Social</p>
-              <p>@stephanie.wellness</p>
+              <p className="font-semibold text-foreground mb-1">GSM-nummer</p>
+              <p>+32 456 24 79 23</p>
             </div>
           </div>
         </div>
