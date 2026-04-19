@@ -16,11 +16,6 @@ const services = [
     description: "We overlopen de grote levensstijlkeuzes die je maakt, op domeinen als zelfzorg en persoonlijke groei, hydratatie en voeding, intimiteit, zingeving, beweging en veel meer. Vraag ook naar de groeps- en privélessen pilates en/of ashtanga yoga.",
     icon: "◇",
   },
-  {
-    title: "Art",
-    description: "Guided creative workshops exploring self-expression through painting, drawing, and mixed media.",
-    icon: "□",
-  },
 ];
 
 const Services = () => {
@@ -34,7 +29,7 @@ const Services = () => {
           Wat ik aanbied
         </h2>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service) => (
             <div
               key={service.title}
