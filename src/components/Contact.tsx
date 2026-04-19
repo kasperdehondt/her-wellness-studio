@@ -46,6 +46,10 @@ const Contact = () => {
               <p className="font-semibold text-foreground mb-1">GSM-nummer</p>
               <p>+32 456 24 79 23</p>
             </div>
+            <div>
+              <p className="font-semibold text-foreground mb-1">GSM-nummer</p>
+              <p>+32 456 24 79 23</p>
+            </div>
           </div>
         </div>
 
