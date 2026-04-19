@@ -2,12 +2,13 @@ import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
 import creatieveWorkshops from "@/assets/gallery-creatieve-workshops.jpeg";
 import pilatesYoga from "@/assets/gallery-pilates-yoga.jpeg";
 import emoties from "@/assets/gallery-emoties.jpeg";
+import yoga from "@/assets/gallery-yoga.jpg";
 
 const galleryItems = [
   { aspect: "aspect-[3/4]", label: "Creatieve workshops", image: creatieveWorkshops },
   { aspect: "aspect-square", label: "Pilates", image: pilatesYoga },
   { aspect: "aspect-[4/3]", label: "Kunstproces", image: emoties },
-  { aspect: "aspect-[3/4]", label: "Pilates" },
+  { aspect: "aspect-[3/4]", label: "Yoga", image: yoga },
   { aspect: "aspect-[4/3]", label: "Therapeutic Touch" },
   { aspect: "aspect-square", label: "Exhibition" },
 ];
