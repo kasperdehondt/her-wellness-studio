@@ -1,3 +1,5 @@
+import stephaniePortrait from "@/assets/stephanie-portrait.jpeg";
+
 const Hero = () => {
   return (
     <section className="min-h-screen flex flex-col md:flex-row">
@@ -22,14 +24,13 @@ const Hero = () => {
         </a>
       </div>
 
-      {/* Right — Image placeholder */}
+      {/* Right — Image */}
       <div className="flex-1 bg-muted relative overflow-hidden min-h-[50vh] md:min-h-0">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-secondary/15 to-accent/20" />
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="w-48 h-48 rounded-full border-2 border-primary/30 flex items-center justify-center">
-            <span className="font-heading text-4xl text-primary/40">S</span>
-          </div>
-        </div>
+        <img
+          src={stephaniePortrait}
+          alt="Stephanie, holistisch gezondheidscoach"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
       </div>
     </section>
   );
