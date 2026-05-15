@@ -29,7 +29,7 @@ const Hero = () => {
         <img
           src={stephaniePortrait}
           alt="Stephanie, holistisch gezondheidscoach"
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-3/4 h-3/4 m-auto object-cover"
         />
       </div>
     </section>
