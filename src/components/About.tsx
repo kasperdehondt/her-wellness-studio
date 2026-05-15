@@ -1,4 +1,5 @@
 import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
+import gezondheidImg from "@/assets/gezondheid.png";
 
 const About = () => {
   const ref = useScrollFadeIn();
@@ -8,7 +9,7 @@ const About = () => {
       <div ref={ref} className="opacity-0 grid md:grid-cols-2 gap-16 items-center">
         {/* Image placeholder */}
         <div className="aspect-[3/4] bg-muted rounded-sm overflow-hidden relative">
-          <div className="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent" />
+          <img src={gezondheidImg} alt="Mindmap gezondheid met domeinen zoals fysiek welzijn, zingeving, relaties en zelfontwikkeling" className="w-full h-full object-contain" />
         </div>
 
         {/* Text */}
