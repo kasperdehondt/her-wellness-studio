@@ -25,13 +25,11 @@ const Hero = () => {
       </div>
 
       {/* Right — Image */}
-      <div className="flex-1 bg-muted relative overflow-hidden min-h-[50vh] md:min-h-0">
-        <img
-          src={stephaniePortrait}
-          alt="Stephanie, holistisch gezondheidscoach"
-          className="absolute right-0 top-1/2 -translate-y-1/2 w-[56%] h-[56%] object-cover"
-        />
-      </div>
+      <img
+        src={stephaniePortrait}
+        alt="Stephanie, holistisch gezondheidscoach"
+        className="flex-1 w-full md:w-1/2 object-cover min-h-[50vh] md:min-h-0"
+      />
     </section>
   );
 };
