@@ -16,6 +16,11 @@ const services = [
     description: "We overlopen de grote levensstijlkeuzes die je maakt, op domeinen als zelfzorg en persoonlijke groei, hydratatie en voeding, intimiteit, zingeving, beweging en veel meer. Vraag ook naar de groeps- en privélessen pilates en/of ashtanga yoga.",
     icon: "◇",
   },
+  {
+    title: "Nieuwe dienst",
+    description: "Beschrijving van deze nieuwe dienst. Pas deze tekst aan naar wat je wil aanbieden.",
+    icon: "□",
+  },
 ];
 
 const Services = () => {
