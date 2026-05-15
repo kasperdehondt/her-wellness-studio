@@ -28,7 +28,7 @@ const Hero = () => {
       <img
         src={stephaniePortrait}
         alt="Stephanie, holistisch gezondheidscoach"
-        className="flex-1 w-full md:w-1/2 object-cover min-h-[50vh] md:min-h-0"
+        className="w-1/2 md:w-1/4 object-cover self-center"
       />
     </section>
   );
