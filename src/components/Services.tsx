@@ -13,7 +13,7 @@ const services = [
   },
   {
     title: "Beweging",
-    description: "Vraag ook naar de groeps- en privélessen pilates en/of ashtanga yoga.",
+    description: "Ik geef ashtanga yoga en pilates op verschillende locaties in en rond Ieper. Wil je graag aansluiten? Geef een seintje.\nVraag ook naar de privélessen.",
     icon: "◇",
   },
   {
