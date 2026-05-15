@@ -13,7 +13,7 @@ const services = [
   },
   {
     title: "Beweging",
-    description: "Vraag ook naar de groeps- en privélessen pilates en/of ashtanga yoga.",
+    description: "Ik geef ashtanga yoga en pilates op verschillende locaties in en rond Ieper. Wil je graag aansluiten? Geef een seintje.\nVraag ook naar de privélessen.",
     icon: "◇",
   },
   {
@@ -46,7 +46,7 @@ const Services = () => {
               <h3 className="font-heading text-2xl font-medium text-foreground mb-3">
                 {service.title}
               </h3>
-              <p className="font-body text-sm text-muted-foreground leading-relaxed">
+              <p className="font-body text-sm text-muted-foreground leading-relaxed whitespace-pre-line">
                 {service.description}
               </p>
             </div>
