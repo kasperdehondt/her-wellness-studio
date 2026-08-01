@@ -2,23 +2,23 @@ import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
 
 const services = [
   {
-    title: "Yoga",
-    description: "Flowing vinyasa and restorative practices that cultivate strength, flexibility, and deep presence.",
+    title: "Gesprekstherapie",
+    description: "Door samen de door jouw aangebrachte thema's aan te kaarten gaan we op zoek naar nieuwe perspectieven en oplossingen. We gaan aan de slag met de grote levensdomeinen.",
     icon: "◯",
   },
   {
-    title: "Pilates",
-    description: "Precision-based movement to build core stability, improve posture, and restore functional alignment.",
+    title: "Creatieve therapie",
+    description: "Niet iedereen komt even makkelijk tot gesprek. Soms zoek je een andere manier om je uit te drukken. Anderen hebben gewoon graag wat om handen tijdens een gesprek. Met mijn achtergrond in beeldende kunsten loods ik je graag door het consult.",
     icon: "△",
   },
   {
-    title: "Therapy",
-    description: "Somatic bodywork and therapeutic sessions addressing tension, trauma, and nervous system regulation.",
+    title: "Beweging",
+    description: "Ik geef ashtanga yoga en pilates op verschillende locaties in en rond Ieper. Wil je graag aansluiten? Geef een seintje.\nVraag ook naar de privélessen.",
     icon: "◇",
   },
   {
-    title: "Art",
-    description: "Guided creative workshops exploring self-expression through painting, drawing, and mixed media.",
+    title: "Gezondheid",
+    description: "We overlopen de grote levensstijlkeuzes die je maakt, op domeinen als zelfzorg en persoonlijke groei, hydratatie en voeding, intimiteit, zingeving, beweging en veel meer.",
     icon: "□",
   },
 ];
@@ -29,12 +29,12 @@ const Services = () => {
   return (
     <section id="services" className="py-24 md:py-32 bg-card">
       <div ref={ref} className="opacity-0 max-w-7xl mx-auto px-8 md:px-16 lg:px-24">
-        <p className="font-body text-xs tracking-[0.3em] uppercase text-primary mb-3 text-center">Services</p>
+        <p className="font-body text-xs tracking-[0.3em] uppercase text-primary mb-3 text-center">Diensten</p>
         <h2 className="font-heading text-4xl md:text-5xl font-light text-foreground mb-16 text-center">
-          What I Offer
+          Wat ik aanbied
         </h2>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service) => (
             <div
               key={service.title}
@@ -46,7 +46,7 @@ const Services = () => {
               <h3 className="font-heading text-2xl font-medium text-foreground mb-3">
                 {service.title}
               </h3>
-              <p className="font-body text-sm text-muted-foreground leading-relaxed">
+              <p className="font-body text-sm text-muted-foreground leading-relaxed whitespace-pre-line">
                 {service.description}
               </p>
             </div>
