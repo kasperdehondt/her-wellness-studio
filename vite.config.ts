@@ -7,7 +7,8 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig(({ mode }) => ({
   // If you are deploying to https://<USERNAME>.github.io/<REPO>/ (eg. your repository is at https://github.com/<USERNAME>/<REPO>), then set base to '/<REPO>/'.
   // https://kasperdehondt.github.io/her-wellness-studio/
-  base: "/her-wellness-studio/",
+  // base: "/her-wellness-studio/",
+  base: "/",
   server: {
     host: "::",
     port: 8080,

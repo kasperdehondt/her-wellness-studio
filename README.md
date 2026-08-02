@@ -1,18 +1,28 @@
 # Her Wellness Studio
 
+## Hosting, HTTPS, and domain
+
+- GitHub already provides your hosting and HTTPS certificate
+- Domain is registered on combell.com with Steph's credentials
+
+## Resources
+
+- https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
+
 ## For Stephanie; Lovable usage
 
 For live preview in the browser prompt the AI to change the base-url to `/` temporarily. Then, before publishing, revert back to `/her-wellness-studio/` for GitHub Pages hosting.
-
+^ Ignore? Implicitly fixed by changing the base-url back to `/` in `vite.config.ts` and using a custom domain?
 ## TODO
 
 - [~] Fix GitHub auth so I can pull/push (Windows Credentials Manager?) -> ran `git push` from CLI on Laptop, switching to Desktop for the time being
-- [x] kdhndt collaborator access
 - [/] Working over/About page
-- [ ] Is Lovable synced to GitHub repo paid? So that she can modify herself? If so, how expensive? Are there other alternatives?
-- [ ] Obfuscate/renew credentials (leaked via Outlook -> Personal GMail) + remove `.env` from tracked Git files
-- [ ] Fix pushing via IJ UI, currently only CLI works
 - [/] Move GH Repo to Personal acc for Steph so that she can access/modify easily (or at least share the repo)
+- [x] kdhndt collaborator access
+- [x] Create domain
+- [ ] Obfuscate/renew credentials (leaked via Outlook -> Personal GMail) + remove `.env` from tracked Git files
+- [ ] Find way for Steph to edit/push from Lovable w/o the need for an IDE or dev tools
+- [ ] Fix pushing via IJ UI, currently only CLI works
 
 ## Email setup
 
